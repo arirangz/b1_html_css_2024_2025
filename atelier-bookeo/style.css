@@ -1,0 +1,173 @@
+* {
+  font-family: Tahoma;
+}
+
+header {
+  padding: 20px;
+  overflow: auto;
+}
+header form {
+  margin-top: 28px;
+}
+header img {
+  float: left;
+  margin-right: 50px;
+}
+#search {
+  height: 39px;
+  border: 2px solid #81dd90;
+}
+form input {
+  font-size: 18px;
+}
+.button {
+  background-color: #11999e;
+  color: #fff;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 2px solid #81dd90;
+}
+.button:hover {
+  color: #11999e;
+  background-color: #fff;
+}
+#mainNav {
+  background-color: #11999e;
+  text-align: center;
+}
+#mainNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 50px;
+}
+
+#mainNav ul li {
+  display: inline-block;
+  padding: 20px 0;
+}
+
+#mainNav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+#mainNav ul li a:hover {
+  background-color: #fff;
+  color: #11999e;
+}
+h1 {
+  text-align: center;
+}
+h1,
+h2 {
+  color: #81dd90;
+  text-transform: uppercase;
+}
+
+#introduction {
+  text-align: center;
+  margin: 20px;
+  align-items: center;
+  font-size: 18px;
+  border-bottom: 3px solid #81dd90;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+#latest-books {
+  text-align: center;
+  border-bottom: 3px solid #81dd90;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+#latest-books img {
+  display: inline-block;
+  height: 300px;
+}
+#contact {
+  margin: 0 auto;
+  max-width: 500px;
+}
+#contact select {
+  width: 100%;
+}
+#contact textarea {
+  width: 100%;
+}
+
+#categories {
+  text-align: center;
+  padding: 50px;
+  background-color: #11999e;
+}
+
+#categories h2 {
+  color: #fff;
+}
+
+#categories ul li {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#categories a {
+  color: #fff;
+  font-weight: bold;
+}
+#categories a:hover {
+  color: #81dd90;
+}
+
+#subscription {
+  text-align: center;
+  margin: 20px;
+}
+
+#subscription form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#email {
+  height: 39px;
+  border: 2px solid #81dd90;
+  width: 300px;
+}
+
+footer {
+  background-color: #11999e;
+  padding: 20px;
+}
+
+#footer-top nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#footer-bottom {
+  text-align: center;
+  color: #fff;
+}
+
+#footer-bottom p {
+  margin-bottom: 10px;
+}
+
+#footer-bottom ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#footer-bottom ul {
+  margin: 0;
+  padding: 0;
+}
